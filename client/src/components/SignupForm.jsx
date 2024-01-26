@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Form, Button, Alert } from 'react-bootstrap';
 
 import { createUser } from '../utils/API';
+//^^ switch everything from utils api to graphql, and pull in useMutation hook from apollo client 
 import Auth from '../utils/auth';
 
 const SignupForm = () => {
